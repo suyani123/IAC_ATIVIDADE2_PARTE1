@@ -1,0 +1,61 @@
+from Funcionarios import Funcionarios
+import random
+from datetime import date
+
+class BDFAKE:
+    listFuncionarios = []
+
+    def criarFuncionarios(self):
+        funcionarioList = []
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "João", "Silva", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Maria", "Cunha", "F", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Pedro", "Augusto", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marcio", "Nantes", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Guilherme", "Couto", "M", date(year=2005, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Joana", "Silva", "F", date(year=2001, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Justin", "Bieber", "M", date(year=2002, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Ana", "Castela", "F", date(year=2002, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Fabio", "Moreira", "M", date(year=1999, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Matheus", "Mello", "M", date(year=1998, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Bruno", "Revolution", "M", date(year=1999, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "João", "Camb", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Thiago", "Vaqueiro", "M", date(year=2003, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Sia", "Souza", "F", date(year=1990, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marcos", "Pereira", "M", date(year=1987, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Eduarda", "Smith", "F", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Josh", "Beauchamp", "M", date(year=2001, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marcia", "Dantas", "F", date(year=2001, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "João", "Pedro", "M", date(year=1990, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marcileia", "Machado", "M", date(year=1991, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Amanda", "Tavares", "M", date(year=1998, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Bruno", "Silva", "M", date(year=1890, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Prata", "Moreira", "M", date(year=2007, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Justin", "Timberlake", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Felipe", "Sousa", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Camila", "Vitoria", "F", date(year=1990, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Eder", "Costa", "M", date(year=1909, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marciana", "Marte", "F", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Marte", "Venus", "M", date(year=1987, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Matheus", "Sousa", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Nathan", "Leite", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Lucas", "Rodrigues", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Alex", "Otavio", "M", date(year=1990, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Joana", "Maria", "F", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Pedro", "Pulo", "M", date(year=2001, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Paulo", "Pedro", "M", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Eva", "Fim", "F", date(year=2001, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Adão", "Nascer", "M", date(year=1999, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Lillith", "Silva", "F", date(year=1997, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Lucifer", "Morningstar", "M", date(year=1996, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Maethe", "Silva", "F", date(year=1996, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Alan", "Zoka", "M", date(year=1995, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Celbit", "Custodio", "M", date(year=1994, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Britney", "Spears", "F", date(year=2000, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Martheus", "Melo", "M", date(year=2003, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "João", "Pedro", "M", date(year=2010, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Kauan", "Lovera", "M", date(year=2005, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Francisco", "Alonso", "M", date(year=2011, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Laisa", "Strack", "F", date(year=2008, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+        funcionarioList.append(Funcionarios(len(funcionarioList) + 1, "Bruno", "Silva", "M", date(year=2007, month=random.randrange(1, 12), day=random.randrange(1, 28))))
+
+        self.listFuncionarios = funcionarioList
